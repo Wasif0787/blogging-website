@@ -6,9 +6,9 @@ import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import ArticleIcon from '@mui/icons-material/Article';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { useRouter } from 'next/navigation';
-import { signOut } from '../utils/auth';
+import { signOut } from '../app/utils/auth';
 import toast, { Toaster } from 'react-hot-toast';
-import useUserStore from '../hooks/useUserStore';
+import useUserStore from '../app/hooks/useUserStore';
 
 const ProfileOptions = () => {
     const router = useRouter()

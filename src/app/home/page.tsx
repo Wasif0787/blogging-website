@@ -2,11 +2,11 @@
 import React, { useEffect, useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import { usePageTitle } from '../hooks/usePageTitle';
-import Header from '../components/Header';
+import Header from '../../components/Header';
 import { Blog } from '../types/blog';
 import { getAllBlogs } from '../utils/blogDatabase';
-import BlogCard from '../components/BlogCard';
-import SkeletonCard from '../components/SkeletonCard';
+import BlogCard from '../../components/BlogCard';
+import SkeletonCard from '../../components/SkeletonCard';
 
 const Page = () => {
     usePageTitle("Medium: Home")

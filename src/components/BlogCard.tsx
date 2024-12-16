@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from 'next/navigation';
-import { Blog } from '../types/blog';
+import { Blog } from '../app/types/blog';
 
 const BlogCard = (blog: Blog) => {
     const router = useRouter()

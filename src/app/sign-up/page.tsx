@@ -7,7 +7,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { insertUser } from '../utils/userDatabase';
 import { usePageTitle } from '../hooks/usePageTitle';
 import useUserStore from '../hooks/useUserStore';
-import SkeletonCard from '../components/SkeletonCard';
+import SkeletonCard from '../../components/SkeletonCard';
 
 const SignUpPage = () => {
     const [name, setName] = useState<string>('');

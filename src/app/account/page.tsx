@@ -19,12 +19,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import useUserStore from "../hooks/useUserStore"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
-import SkeletonCard from "../components/SkeletonCard"
+import SkeletonCard from "../../components/SkeletonCard"
 import { updateUser } from "../utils/userDatabase"
 import toast, { Toaster } from "react-hot-toast"
 import { uploadProfileImage } from "../utils/storage"
 import { usePageTitle } from "../hooks/usePageTitle";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 
 const AccountPage = () => {
     usePageTitle("Medium: Account")

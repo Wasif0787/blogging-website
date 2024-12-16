@@ -1,6 +1,6 @@
 "use client";
-import Header from '@/app/components/Header';
-import SkeletonCard from '@/app/components/SkeletonCard';
+import Header from '@/components/Header';
+import SkeletonCard from '@/components/SkeletonCard';
 import { usePageTitle } from '@/app/hooks/usePageTitle';
 import useUserStore from '@/app/hooks/useUserStore';
 import { Blog } from '@/app/types/blog'; // Assuming you have a Blog type defined

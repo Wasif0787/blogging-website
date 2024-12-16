@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import useUserStore from '../hooks/useUserStore';
 import { usePageTitle } from '../hooks/usePageTitle';
-import Header from '../components/Header';
-import UserTable from '../components/UserTable';
+import Header from '../../components/Header';
+import UserTable from '../../components/UserTable';
 import { User } from '../types/user';
 import { getAllUsers } from "../utils/userDatabase";
 import toast, { Toaster } from 'react-hot-toast';
-import SkeletonCard from '../components/SkeletonCard';
+import SkeletonCard from '../../components/SkeletonCard';
 
 const Page = () => {
     usePageTitle("Medium: Manage Access");

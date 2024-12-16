@@ -1,6 +1,6 @@
 import React from 'react'
-import SearchBox from '../components/SearchBox'
-import Header from '../components/Header'
+import SearchBox from '../../components/SearchBox'
+import Header from '../../components/Header'
 
 const page = () => {
     return (

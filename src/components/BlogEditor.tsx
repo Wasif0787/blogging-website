@@ -3,11 +3,11 @@ import React, { useState, useRef, useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import dynamic from 'next/dynamic';
 import SkeletonCard from './SkeletonCard';
-import { insertBlog } from '../utils/blogDatabase';
-import { uploadCoverImage } from '../utils/storage';
+import { insertBlog } from '../app/utils/blogDatabase';
+import { uploadCoverImage } from '../app/utils/storage';
 import ReactQuill from 'react-quill-new';
 import { useRouter } from 'next/navigation';
-import { Blog } from '../types/blog';
+import { Blog } from '../app/types/blog';
 
 // Dynamically import QuillEditor
 const QuillEditor = dynamic(() => import('./QuillEditor'), {

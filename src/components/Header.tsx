@@ -4,7 +4,7 @@ import DriveFileRenameOutlineIcon from '@mui/icons-material/DriveFileRenameOutli
 import { useRouter } from 'next/navigation';
 import SearchIcon from '@mui/icons-material/Search';
 import SearchBox from './SearchBox';
-import useUserStore from '../hooks/useUserStore';
+import useUserStore from '../app/hooks/useUserStore';
 import { Skeleton } from '@/components/ui/skeleton';
 import PopAvatar from './PopAvatar';
 

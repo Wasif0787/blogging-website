@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react'
 import useUserStore from '../hooks/useUserStore'
 import { useRouter } from 'next/navigation'
 import { usePageTitle } from '../hooks/usePageTitle'
-import Header from '../components/Header'
+import Header from '../../components/Header'
 import { Blog } from '../types/blog'
 import { getUserBlogs } from '../utils/blogDatabase'
 import toast from 'react-hot-toast'
-import SkeletonCard from '../components/SkeletonCard'
-import BlogCard from '../components/BlogCard'
+import SkeletonCard from '../../components/SkeletonCard'
+import BlogCard from '../../components/BlogCard'
 
 const Page = () => {
     usePageTitle("Medium: My Blogs")

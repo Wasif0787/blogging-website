@@ -6,7 +6,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { usePageTitle } from '../hooks/usePageTitle';
 import { getUser } from '../utils/userDatabase';
 import useUserStore from '../hooks/useUserStore';
-import SkeletonCard from '../components/SkeletonCard';
+import SkeletonCard from '../../components/SkeletonCard';
 
 const LoginPage = () => {
     const [email, setEmail] = useState<string>('');

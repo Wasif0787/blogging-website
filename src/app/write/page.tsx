@@ -2,9 +2,9 @@
 import React, { useEffect, useState, Suspense } from "react";
 import useUserStore from "../hooks/useUserStore";
 import { Skeleton } from "@/components/ui/skeleton";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import { useRouter, useSearchParams } from "next/navigation";
-import BlogEditor from "../components/BlogEditor";
+import BlogEditor from "../../components/BlogEditor";
 import { Toaster } from "react-hot-toast";
 import { Blog } from "../types/blog";
 import { getBlogById } from "../utils/blogDatabase";

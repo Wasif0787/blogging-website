@@ -1,6 +1,6 @@
 import React from 'react';
-import { User } from '../types/user';
-import { updateUser } from '../utils/userDatabase';
+import { User } from '../app/types/user';
+import { updateUser } from '../app/utils/userDatabase';
 import toast, { Toaster } from 'react-hot-toast';
 import { useRouter } from 'next/navigation';
 

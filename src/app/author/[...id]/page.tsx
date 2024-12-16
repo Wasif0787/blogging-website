@@ -1,6 +1,6 @@
 "use client";
-import Header from '@/app/components/Header';
-import SkeletonCard from '@/app/components/SkeletonCard';
+import Header from '@/components/Header';
+import SkeletonCard from '@/components/SkeletonCard';
 import { User } from '@/app/types/user';
 import { getUser } from '@/app/utils/userDatabase';
 import { Button } from '@/components/ui/button';
