@@ -1,4 +1,5 @@
 "use client";
+export const dynamicParams = true;
 import Header from '@/components/Header';
 import SkeletonCard from '@/components/SkeletonCard';
 import { usePageTitle } from '@/app/hooks/usePageTitle';
